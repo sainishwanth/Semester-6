@@ -1,0 +1,15 @@
+#+title: Module1
+
+* Solar Energy
+
+** Harnessing Solar Energy
+- PU
+  + photovoltaic cells (Light -> Electrical Energy)
+- CSP
+  + Concentrated Solar Power
+  + (Light <-> Hear -> Energy)
+- SHC
+  + Solar heating and cooling
+
+
+**

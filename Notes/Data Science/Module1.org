@@ -1,0 +1,41 @@
+#+title: Module1
+
+* What is Data Science?
+- Extracting meaningful insights from data
+
+* 5 V's of Big Data
+1. Value
+2. Variety
+3. Voracity
+4. Volume
+5. Velocity
+
+* Types of data
++ Structured Data
++ Unstructured Data
++ Semi-Structured Data
+
+* Analysis vs Reporting
+** Analysis
+ - Questioning the data
+ - Understanding the data
+ - Investigating the data
+** Reporting
+- Gathering the required info
+- Organize
+- Summarizing
+- Presenting
+
+* Toolkits using Python
++ Numpy, Pandas, Scikit-learn, Matplotlib
+
+**  Numpy
+- It is a Python library used for working with arrays and performing numerical operations in python.
+#+BEGIN_SRC python
+    - pip3 install numpy
+
+    import numpy as np
+
+    arr = np.array([1,2,3,4,5])
+    print(arr)
+#+END_SRC

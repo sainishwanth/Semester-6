@@ -1,0 +1,235 @@
+% Created 2023-03-10 Fri 14:31
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Sai Nishwanth Raj Reddy}
+\date{\today}
+\title{IoT Enabling Technologies}
+\hypersetup{
+ pdfauthor={Sai Nishwanth Raj Reddy},
+ pdftitle={IoT Enabling Technologies},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 30.0.50 (Org mode 9.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Synopsis}
+\label{sec:orgae6218e}
+\begin{itemize}
+\item Sensor Networks
+\item Sensors and actuators
+\item Analog/Digital Conversion
+\item Communication Protocols
+\item Emedded Computing
+\item Cloud Computing
+\end{itemize}
+
+\section{Wireless Sensor Network (WSN)}
+\label{sec:org9671b20}
+\begin{itemize}
+\item It is an infrastructure-less network that is deployed with a large number of wireless sensors
+and is used to monitor the physical or enironmental conditions.
+\item These sensors are connected to a base station which acts as the processing unit
+\item Base station is connected through the internet to share the data.
+\end{itemize}
+
+\subsubsection{Applications of WSN}
+\label{sec:org632b90d}
+\begin{enumerate}
+\item Surveillance and monitoring
+\item Environmental temp, humidity and air pressure
+\item Noise level
+\item Patient monitoring in medical applications
+\item E-house monitoring
+\end{enumerate}
+\subsubsection{Challenges of WSN}
+\label{sec:orgb54ced7}
+\begin{enumerate}
+\item Energy efficiency
+\item Security Issues
+\item Performance
+\item Scalability
+\item Ability to cope with node failure
+\item Limited Storage capabilites
+\end{enumerate}
+\begin{enumerate}
+\item Heteroginity
+\label{sec:org125b184}
+\begin{itemize}
+\item WSN's consist of a variet of different sesnro types, keeping them all in sync in the network can be a
+challenging task
+\end{itemize}
+\item Interference
+\label{sec:org10c5e7b}
+\begin{itemize}
+\item WSN's can often be deployed in regions with a lot of interference from other wireless devices
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Components of WSN:}
+\label{sec:org0c2f873}
+\begin{enumerate}
+\item Sensors
+\begin{itemize}
+\item Capture the various environmental variables
+\end{itemize}
+\item Radio Nodes
+\begin{itemize}
+\item Send and recieve the data procuded by the sensors. Consists of microcontroller, transceiver, external memory
+and power source.
+\end{itemize}
+\item WLAN Access point
+\begin{itemize}
+\item Recieves the data sent by the radio nodes
+\end{itemize}
+\item Evaluation sofware
+\begin{itemize}
+\item Data recieved is processed for an evaluation software before presenting it the users
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Sensors and Actuators}
+\label{sec:org93bcb24}
+\begin{enumerate}
+\item Computer-Process interface
+\label{sec:org91c20cc}
+\begin{enumerate}
+\item Sensors
+\begin{itemize}
+\item They are used to measure the continuous and discrete signals
+\end{itemize}
+\item Actuators
+\begin{itemize}
+\item They drive the continuous and discrete parameters
+\end{itemize}
+\item Devices for ADC (Anagalog to digital) and DAC (Digital to anaglog)
+\item I/O Devices for Discrete data
+\end{enumerate}
+
+
+Sensors ----> Computer Controller -> Actuators ----> Transformation Process -> Sensors
+         DAC                                    ADC
+\end{enumerate}
+
+\subsubsection{Sensors categories by stimulus}
+\label{sec:org4ca00e5}
+
+\begin{center}
+\begin{tabular}{ll}
+Stimulus & Examples\\[0pt]
+\hline
+Mechanical & positional variables, velocitym acceleration, force, pressure\\[0pt]
+Electrical & Voltage, current, charge\\[0pt]
+Thermal & Temperature, heat, thermal conductivity\\[0pt]
+Radiation & Gamma rays, x-rays\\[0pt]
+Magnetic & Magnetic field, flux\\[0pt]
+Chemical & pH Levels, presence of toxic ingredients, pollutants\\[0pt]
+\end{tabular}
+\end{center}
+
+\subsubsection{Sensors can be classified into two basic categories}
+\label{sec:org752a133}
+\begin{enumerate}
+\item Analog (continuous)
+\item Discrete
+\begin{itemize}
+\item Binary
+\item Digital (Pulse Counter)
+\end{itemize}
+\end{enumerate}
+
+\subsection{HyperText Transfer Protocol (HTTP)}
+\label{sec:orgccdbc40}
+\begin{itemize}
+\item Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes.
+\end{itemize}
+
+\subsection{Constrained Application Protocol (CoAP)}
+\label{sec:org5ea64cf}
+\begin{itemize}
+\item Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things. CoAP is designed to enable simple, constrained devices to join the IoT even through constrained networks with low bandwidth and low availability.
+\end{itemize}
+
+\subsection{Data Distribution Service (DDS)}
+\label{sec:orgdaa3728}
+\begin{itemize}
+\item The Data Distribution Service for real-time systems is an Object Management Group machine-to-machine standard that aims to enable dependable, high-performance, interoperable, real-time, scalable data exchanges using a publish–subscribe pattern.
+\end{itemize}
+
+\subsection{WebSocket}
+\label{sec:orgcd44910}
+\begin{itemize}
+\item Linked to HTTP Protocol, it enables a TCP Connection between the browser and a server.
+\end{itemize}
+
+\subsection{Advanced Message Queue Protocol (AMQP)}
+\label{sec:org3c9ef89}
+\begin{itemize}
+\item TCP based so delivery is guaranteed, as well as acknowledgement, so it it very reliable.
+\item At most once: the sender does not wait until having an acknowledgement from the reciever to delete a messages
+\item At least once: Sender recieves a acknowledgement from the receiver before deleting the message.
+\item Exactly once: The messages are sent exactly once, it requires sepcial co ordinated b/w the sender and the receiver.
+\end{itemize}
+
+\subsection{Extensible Message and Presence Protocol (XMPP)}
+\label{sec:org31d8600}
+\begin{itemize}
+\item Based on XML, open source, decentralize, secure protocol to exchange XML messages
+\item Usses JabberID with the format JabberID@domain.com, which allows two nodes to interchange information regardless of distance b/w them.
+\end{itemize}
+
+\section{Embedded Systems}
+\label{sec:org8dbf78e}
+\begin{itemize}
+\item Combination of hardware and software
+\end{itemize}
+
+\subsection{Types of Embedded Systems}
+\label{sec:org00a0896}
+\subsubsection{Small Scale Embedded Systems}
+\label{sec:org3fab9c8}
+\begin{itemize}
+\item Microcontrollers
+\end{itemize}
+\subsubsection{Medium-Scale Embedded systems}
+\label{sec:orge6c85da}
+\begin{itemize}
+\item 16-bit or 32-bit microcontroller
+\end{itemize}
+\subsubsection{Sophisticated-Scale Embedded Systems}
+\label{sec:org8a75e7d}
+\begin{itemize}
+\item Complex software and hardware componenets
+\end{itemize}
+
+\subsubsection{Benefits of Embedded Systems}
+\label{sec:org4ec583e}
+\begin{itemize}
+\item Low power usage
+\item Low cost
+\end{itemize}
+
+\subsection{Applications of Embedded Systems}
+\label{sec:org77fb09a}
+\begin{itemize}
+\item Healthcare industry -> Diagnostic and imagine devices
+\item Life sciences industry -> bioinformatics, proteonomics, genome sequenceing
+\item Military -> Unammed vehicles, C4ISR Systems
+\item industrial Automation
+\end{itemize}
+\end{document}

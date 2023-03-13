@@ -1,0 +1,71 @@
+#+title: Module 1
+
+* IOT
+
+** How IOT Works?
+1. Sensors
+   + Collecting data
+2. Connectivity
+   + Sending data to the cloud
+3. Data Processing
+   + Making the Data Useful
+4. User interface
+   + Delivering the information to the user
+
+** Definition of IOT
+"IOT is an umbrella term that refers to the billions of physical devices connected
+to the internet, all collecting and exchanging data with one another."
+
+** Types of IOT
+
+- Consumer IOT
+  + IOT for everyday use
+- Commercial IOT
+  + Healthcare and Transport industries
+- IoMT (Military)
+  + Used in the Military field
+- IIoT (Industrial)
+  + Manufacturing and Energy sectors
+- Infrastructure IoT
+  + Connectivity in smart cities
+
+** Why is IOT Important
+
+1. Generates new Business Models
+2. Data driven business decisions from IoT data
+3. Increase productivity and efficiency
+4. Enhances customer experience
+
+** Examples of IOT Devices
+
+- Home Security
+- Activity Trackers
+- Home appliances
+
+*** Popular IoT Devices
+
++ Google Home voice controller
++ Amazon Echo
++ August Doorbell cams
++ Foobot (Air Quality checker)
+
+** Characteristics and Architecture of IOT Devices
+
+*** Connectivity
+*** Intelligence and identity
+*** Scalability
+- They should be able to connect to multiple devices
+*** Self-Adjusting
+*** Architecture
+- IoT Devices should support devices from different manufacturers and their protocols
+*** Safety
+- Securing User Information from threats
+*** Self Configuring
+- Automatically updating their software, connecting to devices, etc
+
+** 4-stage Architecture of IoT
+(Bottom to top)
+1. Sensing layer
+2. Network Layer
+3. Data Processing Layer
+4. Application Layer

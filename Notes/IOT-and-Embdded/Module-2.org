@@ -1,0 +1,118 @@
+#+title: IoT Enabling Technologies
+
+* Synopsis
+- Sensor Networks
+- Sensors and actuators
+- Analog/Digital Conversion
+- Communication Protocols
+- Emedded Computing
+- Cloud Computing
+
+* Wireless Sensor Network (WSN)
+- It is an infrastructure-less network that is deployed with a large number of wireless sensors
+  and is used to monitor the physical or enironmental conditions.
+- These sensors are connected to a base station which acts as the processing unit
+- Base station is connected through the internet to share the data.
+
+*** Applications of WSN
+1. Surveillance and monitoring
+2. Environmental temp, humidity and air pressure
+3. Noise level
+4. Patient monitoring in medical applications
+5. E-house monitoring
+*** Challenges of WSN
+1. Energy efficiency
+2. Security Issues
+3. Performance
+4. Scalability
+5. Ability to cope with node failure
+6. Limited Storage capabilites
+**** Heteroginity
+- WSN's consist of a variet of different sesnro types, keeping them all in sync in the network can be a
+  challenging task
+**** Interference
+- WSN's can often be deployed in regions with a lot of interference from other wireless devices
+
+*** Components of WSN:
+1. Sensors
+   - Capture the various environmental variables
+2. Radio Nodes
+   - Send and recieve the data procuded by the sensors. Consists of microcontroller, transceiver, external memory
+     and power source.
+3. WLAN Access point
+   - Recieves the data sent by the radio nodes
+4. Evaluation sofware
+   - Data recieved is processed for an evaluation software before presenting it the users
+
+*** Sensors and Actuators
+**** Computer-Process interface
+1. Sensors
+   - They are used to measure the continuous and discrete signals
+2. Actuators
+   - They drive the continuous and discrete parameters
+3. Devices for ADC (Anagalog to digital) and DAC (Digital to anaglog)
+4. I/O Devices for Discrete data
+
+
+Sensors ----> Computer Controller -> Actuators ----> Transformation Process -> Sensors
+         DAC                                    ADC
+
+*** Sensors categories by stimulus
+
+| Stimulus   | Examples                                                      |
+|------------+---------------------------------------------------------------|
+| Mechanical | positional variables, velocitym acceleration, force, pressure |
+| Electrical | Voltage, current, charge                                      |
+| Thermal    | Temperature, heat, thermal conductivity                       |
+| Radiation  | Gamma rays, x-rays                                            |
+| Magnetic   | Magnetic field, flux                                          |
+| Chemical   | pH Levels, presence of toxic ingredients, pollutants          |
+
+*** Sensors can be classified into two basic categories
+1. Analog (continuous)
+2. Discrete
+   -  Binary
+   -  Digital (Pulse Counter)
+
+** HyperText Transfer Protocol (HTTP)
+- Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes.
+
+** Constrained Application Protocol (CoAP)
+- Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things.  CoAP is designed to enable simple, constrained devices to join the IoT even through constrained networks with low bandwidth and low availability.
+
+** Data Distribution Service (DDS)
+- The Data Distribution Service for real-time systems is an Object Management Group machine-to-machine standard that aims to enable dependable, high-performance, interoperable, real-time, scalable data exchanges using a publish–subscribe pattern.
+
+** WebSocket
+- Linked to HTTP Protocol, it enables a TCP Connection between the browser and a server.
+
+** Advanced Message Queue Protocol (AMQP)
+- TCP based so delivery is guaranteed, as well as acknowledgement, so it it very reliable.
+- At most once: the sender does not wait until having an acknowledgement from the reciever to delete a messages
+- At least once: Sender recieves a acknowledgement from the receiver before deleting the message.
+- Exactly once: The messages are sent exactly once, it requires sepcial co ordinated b/w the sender and the receiver.
+
+** Extensible Message and Presence Protocol (XMPP)
+- Based on XML, open source, decentralize, secure protocol to exchange XML messages
+- Usses JabberID with the format JabberID@domain.com, which allows two nodes to interchange information regardless of distance b/w them.
+
+* Embedded Systems
+- Combination of hardware and software
+
+** Types of Embedded Systems -> IMP (5 Marks)
+*** Small Scale Embedded Systems
+- Microcontrollers
+*** Medium-Scale Embedded systems
+- 16-bit or 32-bit microcontroller
+*** Sophisticated-Scale Embedded Systems
+- Complex software and hardware componenets
+
+*** Benefits of Embedded Systems
+- Low power usage
+- Low cost
+
+** Applications of Embedded Systems
+- Healthcare industry -> Diagnostic and imagine devices
+- Life sciences industry -> bioinformatics, proteonomics, genome sequenceing
+- Military -> Unammed vehicles, C4ISR Systems
+- industrial Automation

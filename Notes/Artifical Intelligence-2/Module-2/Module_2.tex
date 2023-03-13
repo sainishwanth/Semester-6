@@ -1,0 +1,177 @@
+% Created 2023-03-07 Tue 17:47
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Sai Nishwanth Raj Reddy}
+\date{\today}
+\title{Module 2}
+\hypersetup{
+ pdfauthor={Sai Nishwanth Raj Reddy},
+ pdftitle={Module 2},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 30.0.50 (Org mode 9.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{PROLOG}
+\label{sec:org54cd7e8}
+
+\begin{verbatim}
+% Defining a knowledge base
+% Format:
+relation(entity1, entity2, kentity).
+%Example:
+friends(raju, mahesh).
+singer(sonu).
+odd_numbers(5).
+
+% Queries
+? > singer(sonu)
+returns true -> Sonu exists in singer.
+\end{verbatim}
+
+\section{Prolog Basics}
+\label{sec:org3c488b8}
+\begin{verbatim}
+% Knowledge Base (Facts)
+girl(priya).
+girl(tiyasha).
+girl(jaya).
+can_cook(priya).
+\end{verbatim}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Output\\\empty
+\hline
+- can\textsubscript{cook}(priya). & true\\\empty
+- can\textsubscript{cook}(What). & What = priya\\\empty
+\end{tabular}
+\end{center}
+
+\section{Functions in Prolog}
+\label{sec:org3fa71e9}
+
+\begin{verbatim}
+male(james1).
+male(charles1).
+male(charles2).
+male(james2).
+male(george1).
+
+female(catherine).
+female(elizabeth).
+female(sophia).
+
+parent(charles1, james1).
+parent(elizabeth, james1).
+parent(charles2, charles1).
+parent(catherine, charles1).
+parent(james2, charles1).
+parent(sophia, elizabeth).
+parent(george1, sophia).
+
+mother(M, X):-
+    female(M),
+    parent(M, X).
+\end{verbatim}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Output\\\empty
+\hline
+-  mother(elizabeth,sophia) & false\\\empty
+-   mother(M,james1) & mother(M,james1)\\\empty
+\end{tabular}
+\end{center}
+
+\section{Recursion in Prolog}
+\label{sec:org91afeab}
+
+\begin{verbatim}
+is_digesting(X, Y):- just_ate(X,Y).
+is_digesting(X,Y):-
+    just_ate(X,Z),
+    is_digesting(Z,Y).
+just_ate(mosquito, blood(john)).
+just_ate(frog, mosquito).
+just_ate(stork, frog).
+\end{verbatim}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Output\\\empty
+\hline
+- is\textsubscript{digesting}(stork, mosquito). & true\\\empty
+- just\textsubscript{ate}(stork, Z) & Z = frog\\\empty
+- is\textsubscript{digesting}(Z, mosquito). & Z = frog\\\empty
+\end{tabular}
+\end{center}
+
+\section{Data Structures in Prolog}
+\label{sec:org254d7e8}
+\subsection{Stack}
+\label{sec:org1c4992d}
+\begin{verbatim}
+empty_stack([]).
+stack(Top,Stack,[Top|Stack]).
+member_stack(E,Stack):-
+    member(E,Stack).
+add_list_to_stack(L,S,R):-
+    append(L,S,R).
+reverse_print_stack(S):-
+    empty_stack(S),!.
+reverse_print_stack(S):-
+    stack(H,T,S),
+    reverse_print_stack(T),
+    write(H),nl.
+\end{verbatim}
+\begin{center}
+\begin{tabular}{lr}
+Input & Output\\\empty
+\hline
+reverse\textsubscript{print}\textsubscript{stack}([1,2,3,4,5]). & 5\\\empty
+ & 4\\\empty
+ & 3\\\empty
+ & 2\\\empty
+ & 1\\\empty
+\end{tabular}
+\end{center}
+
+\subsection{Queues}
+\label{sec:org1e2a008}
+\begin{verbatim}
+empty_queue([]).
+enqueue(E,[],[E]).
+enqueue(E,[H|T,[H|Tnew]):-
+        enqueue(E,T,Tnew).
+        dequeue(E,[E|T],T).
+        dequeue(E,[E|_],_).
+        member_queue(Element,Queue):-
+        member(Element,Queue).
+        add_list_to_queue(List,Queue,Newqueue):-
+        append(Queue,List,Newqueue).
+\end{verbatim}
+\begin{center}
+\begin{tabular}{ll}
+Input & Output\\\empty
+\hline
+ & \\\empty
+\end{tabular}
+\end{center}
+\end{document}

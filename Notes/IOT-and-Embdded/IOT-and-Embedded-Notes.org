@@ -1,0 +1,4 @@
+#+title: Notes
+
+* Important links
+- [[https://www.tinkercad.com][Tinkercad]]

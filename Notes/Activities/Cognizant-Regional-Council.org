@@ -1,0 +1,22 @@
+#+title: Cognizant Regional Council
+
+* Soft-Skills
+ - Communication
+ - Emotional intelligence
+ - Self-Awareness
+ - Patience
+ - Open Mindedness
+ - Problem Solving \ Critical thinking
+ - Time management
+ - Collaboration and Team-Work
+ - Accountability
+ - Adaptability
+
+* Language Assessment
+ - Duolingo
+ - British Council
+
+* Positions
+ - Gen c - Beginner (Basic Programming Skills)
+ - Gen c pro - Certification or internship in a specific skill
+ - Gen c next - Full-Stack Development Experience

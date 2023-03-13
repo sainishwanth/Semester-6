@@ -1,0 +1,5 @@
+#+title: Microsoft azure
+
+* Links:
+ - [[https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines][Azure portal]]
+ - [[https://learn.microsoft.com/en-us/training/courses/ai-900t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=4428289#study-guide][Azure Courses]]
