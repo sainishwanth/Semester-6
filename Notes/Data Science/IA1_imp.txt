@@ -1,0 +1,11 @@
+- Data Cleaning
+- Big Data
+- Concepts of Data Science
+- Web Scraping
+- Dimensionality Reduction
+NOTE: Example programs, problems
+
+- Bayes Theorem
+- Conditional Probability
+- Normal Distribution
+

@@ -1,5 +1,24 @@
 #+title: Todo Semester6
 
+* Exams (IA-1)
+** TODO CDSS [0%]
+DEADLINE: <2023-03-15 Wed 09:15>
+- [ ] Generation of Object Code
+- [ ] Pass 1 && Pass 2 Algorithm
+- [ ] Algorithm for absolute loader
+- [ ] bootstrap loader
+- [ ] data Structures
+** TODO Deep Learning
+DEADLINE: <2023-03-15 Wed 13:45>
+** TODO AI-II
+DEADLINE: <2023-03-16 Wed 09:15>
+** TODO IoT
+DEADLINE: <2023-03-16 Thu 13:45>
+** TODO Data Science
+DEADLINE: <2023-03-17 Fri 09:15>
+** TODO Renewable Energy Sources
+DEADLINE: <2023-03-17 Fri 13:45>
+
 * Events
 ** DONE [[https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_OTFmNjIxYmYtNzdkZS00NDk0LTk2ODMtODk4MTNjMzVkMDJh%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522815db2f7-1e3a-438f-8bdd-e55de825adee%2522%252c%2522Oid%2522%253a%252229af6690-8cd9-482a-8afb-b906528c6299%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=3480a9a7-8d6e-4a07-a82e-aabeae5ca07d&directDl=true&msLaunch=true&enableMobilePage=true][Microsoft Azure]]
 SCHEDULED: <2023-02-22 Wed 01:30>
@@ -16,7 +35,7 @@ SCHEDULED: <2023-02-23 Thu 11:00-12:30>
 ** Lab
 - [[https://python-course.eu/applications-python/graphs-python.php][Graph Theory]]
 
-** TODO AI-2 Presentation
+** DONE AI-2 Presentation
 DEADLINE: <2023-02-28 Tue -3d>
 - Refer to any two Research Papers based on Module 1
   - Make Presentation on any one
@@ -28,7 +47,11 @@ DEADLINE: <2023-02-28 Tue -3d>
 [[../Compiler Design and System Software/Module-1][Module 1]]
 ** Labs
 *** TODO Lab Observation
-DEADLINE: <2023-02-28 Tue 10:00 ++1w -1d>
+DEADLINE: <2023-03-14 Tue 10:00 ++1w -1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-13 Mon 15:08]
+:END:
+- State "DONE"       from "TODO"       [2023-03-13 Mon 15:08]
 ** Miscellaneous
 [[../Compiler Design and System Software/CDSS LAB MANUAL -2022.pdf][Lab Manaul Pdf]]
 * Deep Learning (20AM3601)
@@ -36,6 +59,8 @@ DEADLINE: <2023-02-28 Tue 10:00 ++1w -1d>
 [[../Deep Learning/Module-1/][Module 1
 ]]
 * Data Science (20AM3609)
+** TODO Data Science [[../Data Science/20AM3609_DS_Handson_Webscraping.pdf][Assignment-1]]
+DEADLINE: <2023-03-24 Fri>
 
 * IoT and Embedded Systems (20AM3610)
 ** Links
@@ -55,8 +80,8 @@ SCHEDULED: <2023-02-28 Tue -1d>
 ** Links
 - [[https://neetcode.io][Neetcode]]
 - [[https://leetcode.com][leetcode]]
-** TODO House of Coders 12-02-2023
+** DONE House of Coders 12-02-2023
 SCHEDULED: <2023-02-25 Sat>
 - [X] Sorting Algorithm Time Complexities
-- [ ] Drawing a circle using mathematical concepts
+- [X] Drawing a circle using mathematical concepts
 - [X] A AB ABBA problem
