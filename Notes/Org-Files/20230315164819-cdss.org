@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0729f8fe-faa0-4cb1-ae7e-322b93cf6419
+:END:
+#+title: CDSS
+
+* Compiler Design and System Software (20CS3601)
+** Links
+[[https://youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc][- Compiler Design Playlist]]
+** Module
+[[../Compiler Design and System Software/Module-1][Module 1]]
+** Labs
+** Miscellaneous
+[[../Compiler Design and System Software/CDSS LAB MANUAL -2022.pdf][Lab Manaul Pdf]]

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       fc1b61f6-a8ed-4538-929a-73bb338bd911
+:END:
+#+title: Artifical_Intelligence-2
+
+* Artificial Intelligence 2 (20AM3602)
+** [[../Artifical Intelligence-2/Module-1/][Module-1]]
+*** [[id:7f6abd98-b50d-4477-8e7a-2eb675859250][AI-2_Module1]]
+** [[../Artifical Intelligence-2/Module-1/][Module-2]]
+*** [[id:e51a87d3-f74f-4a70-bfd3-f7e482030bb7][AI-2_Module2]]
+** Links
+ - [[https://drive.google.com/drive/folders/1QOIisilyFBadOadrPAmXh065uWZpf-6A][AI-2 Drive]]
+ - [[https://ieeexplore.ieee.org/Xplore/home.jsp][IEEE]]
+ - [[https://www.springer.com/in][Springer]]
+ - [[https://www.tandfonline.com][Tailor and Francis]]
+ - [[https://sci-hub.se][Sci-hub]]
+** Lab
+- [[https://python-course.eu/applications-python/graphs-python.php][Graph Theory]]
+** Finished
+*** DONE AI-2 Presentation
+DEADLINE: <2023-02-28 Tue -3d>
+- Refer to any two Research Papers based on Module 1
+  - Make Presentation on any one

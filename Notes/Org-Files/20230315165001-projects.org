@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       98fefb7b-f6e3-4b7f-b2cd-e0a7f180ecd8
+:END:
+#+title: Projects
+
+* Major Project
+
+* [[../Projects/WeatherReport/][Data Science - Weather Report]]

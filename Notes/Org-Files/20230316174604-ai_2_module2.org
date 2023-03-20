@@ -1,0 +1,125 @@
+:PROPERTIES:
+:ID:       e51a87d3-f74f-4a70-bfd3-f7e482030bb7
+:END:
+#+title: AI-2_Module2
+
+* PROLOG
+
+#+BEGIN_SRC prolog
+% Defining a knowledge base
+% Format:
+relation(entity1, entity2, kentity).
+%Example:
+friends(raju, mahesh).
+singer(sonu).
+odd_numbers(5).
+
+% Queries
+? > singer(sonu)
+returns true -> Sonu exists in singer.
+#+END_SRC
+|
+
+* Prolog Basics
+#+BEGIN_SRC prolog
+% Knowledge Base (Facts)
+girl(priya).
+girl(tiyasha).
+girl(jaya).
+can_cook(priya).
+#+END_SRC
+
+| Input              | Output       |
+|--------------------+--------------|
+| - can_cook(priya). | true         |
+| - can_cook(What).  | What = priya |
+
+* Functions in Prolog
+
+#+BEGIN_SRC prolog
+male(james1).
+male(charles1).
+male(charles2).
+male(james2).
+male(george1).
+
+female(catherine).
+female(elizabeth).
+female(sophia).
+
+parent(charles1, james1).
+parent(elizabeth, james1).
+parent(charles2, charles1).
+parent(catherine, charles1).
+parent(james2, charles1).
+parent(sophia, elizabeth).
+parent(george1, sophia).
+
+mother(M, X):-
+    female(M),
+    parent(M, X).
+#+END_SRC
+
+| Input                       | Output           |
+|-----------------------------+------------------|
+| -  mother(elizabeth,sophia) | false            |
+| -   mother(M,james1)        | mother(M,james1) |
+
+* Recursion in Prolog
+
+#+BEGIN_SRC prolog
+is_digesting(X, Y):- just_ate(X,Y).
+is_digesting(X,Y):-
+    just_ate(X,Z),
+    is_digesting(Z,Y).
+just_ate(mosquito, blood(john)).
+just_ate(frog, mosquito).
+just_ate(stork, frog).
+#+END_SRC
+
+| Input                            | Output   |
+|----------------------------------+----------|
+| - is_digesting(stork, mosquito). | true     |
+| - just_ate(stork, Z)             | Z = frog |
+| - is_digesting(Z, mosquito).     | Z = frog |
+
+* Data Structures in Prolog
+** Stack
+#+BEGIN_SRC prolog
+empty_stack([]).
+stack(Top,Stack,[Top|Stack]).
+member_stack(E,Stack):-
+    member(E,Stack).
+add_list_to_stack(L,S,R):-
+    append(L,S,R).
+reverse_print_stack(S):-
+    empty_stack(S),!.
+reverse_print_stack(S):-
+    stack(H,T,S),
+    reverse_print_stack(T),
+    write(H),nl.
+#+END_SRC
+| Input                             | Output |
+|-----------------------------------+--------|
+| reverse_print_stack([1,2,3,4,5]). |      5 |
+|                                   |      4 |
+|                                   |      3 |
+|                                   |      2 |
+|                                   |      1 |
+
+** Queues
+#+BEGIN_SRC prolog
+empty_queue([]).
+enqueue(E,[],[E]).
+enqueue(E,[H|T,[H|Tnew]):-
+        enqueue(E,T,Tnew).
+        dequeue(E,[E|T],T).
+        dequeue(E,[E|_],_).
+        member_queue(Element,Queue):-
+        member(Element,Queue).
+        add_list_to_queue(List,Queue,Newqueue):-
+        append(Queue,List,Newqueue).
+#+END_SRC
+| Input | Output |
+|-------+--------|
+|       |        |

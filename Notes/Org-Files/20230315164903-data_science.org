@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c6c23685-0497-44aa-bd5b-cb9ef59758b5
+:END:
+#+title: Data-Science
+
+* Data Science (20AM3609)
+** [[../Data Science/Module-1/][Module 1]]
+** [[../Data Science/Module-2/][Module-2]]

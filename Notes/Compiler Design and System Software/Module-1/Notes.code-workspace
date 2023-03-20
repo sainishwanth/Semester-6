@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"customizeUI.activityBar": "wide",
+		"customizeUI.titleBar": "inline"
+	}
+}

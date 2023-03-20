@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       9fdde0f8-7eed-4ba1-9dad-666a3270dcf3
+:END:
+#+title: Exams
+
+
+* Exams (IA-1)
+** DONE CDSS [100%]
+DEADLINE: <2023-03-15 Wed 09:15>
+- [X] Generation of Object Code
+- [X] Pass 1 && Pass 2 Algorithm
+- [X] Algorithm for absolute loader
+- [X] bootstrap loader
+- [X] data Structures
+** DONE Deep Learning
+DEADLINE: <2023-03-15 Wed 13:45>
+** DONE AI-II
+DEADLINE: <2023-03-16 Wed 09:15>
+** DONE IoT
+DEADLINE: <2023-03-16 Thu 13:45>
+*** Important Topics
+**** Module 1 [100%]
+- [X] Ecosystem
+- [X] Working of IOT
+- [X] Characteristics
+- [X] Architecture of IOT
+- [X] Security privacy risk
+
+**** Module 2 [100%]
+- [X] wireless sensor network
+- [X] application and challenges
+- [X] analog to digital conversion iot
+- [X] explain any 3 iot communication protocols
+- [X] types of embedded systems
+- [X] cloud computing roles and services
+** Data Science
+*** Important Topics - IA-1
+**** Module-1
+1. concept of data science
+2. Types of data
+3. Big-Data
+4. Data cleaning
+5. Web scraping
+6. Dimensionality reduction with PCA
+**** Module 2
+1. Conditional probability
+2. Baye's theorem
+3. NORMAL DISTRIBUTION
+** Renewable Energy Sources
+* DONE Data Science IA-1
+DEADLINE: <2023-03-17 Fri 09:15>

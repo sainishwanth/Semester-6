@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       e108451c-2c2d-428b-8070-81d22ca1364a
+:END:
+#+title: IoT-and-Embedded
+
+* IoT and Embedded Systems (20AM3610)
+** Module 1
+*** [[id:b979dc96-77b2-4eb3-9010-6ce195e08b68][IoT-module1]]
+** Module 2
+*** [[id:ea7808aa-1e35-40cd-90f1-1661a52aa1a6][IoT-module2]]
+*** [[Notes/IOT-and-Embdded/Module-2/Analog-to-Digital-Converter.pdf][ADC-Converter]]
+- Pages -> 168, 177, 181
+** Links
+** Done

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       1134968f-32c4-49cb-854d-2b9a4587f5bd
+:END:
+#+title: Activities-Clubs
+
+* House of Coders
+** Links
+- [[https://neetcode.io][Neetcode]]
+- [[https://leetcode.com][leetcode]]
+** DONE House of Coders 12-02-2023
+SCHEDULED: <2023-02-25 Sat>
+- [X] Sorting Algorithm Time Complexities
+- [X] Drawing a circle using mathematical concepts
+- [X] A AB ABBA problem

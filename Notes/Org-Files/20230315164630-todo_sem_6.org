@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       b7b06bc7-cf41-4a08-b200-3279a8094ec7
+:END:
+#+title: TODO_Sem-6
+
+* [[id:fc1b61f6-a8ed-4538-929a-73bb338bd911][Artifical_Intelligence-2]]
+* [[id:38bcc4d0-5733-42d7-974e-da01d8f3ac79][Deep-Learning]]
+** TODO Deep-Learning [[../Deep\ Learning/Assignments/DL\ Assignment 1.pdf][Assignment-1]]
+- [ ] Multilayer neural network
+- [ ] Email Spam Classifier
+DEADLINE: <2023-03-20 Mon>
+* [[id:0729f8fe-faa0-4cb1-ae7e-322b93cf6419][CDSS]]
+** TODO Lab Observation
+DEADLINE: <2023-03-21 Tue 10:00 ++1w -1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-15 Wed 06:27]
+:END:
+- State "DONE"       from "TODO"       [2023-03-15 Wed 06:27]
+- State "DONE"       from "TODO"       [2023-03-13 Mon 15:08]
+* [[id:c6c23685-0497-44aa-bd5b-cb9ef59758b5][Data-Science]]
+** TODO Data Science [[../Data Science/20AM3609_DS_Handson_Webscraping.pdf][Assignment-1]]
+- [X] Wikipedia
+- [X] IMDB
+- [X] Former Presidents
+- [ ] Cricket Rankings
+- [ ] CNBC News
+- [ ] AI Articles from journals
+- [ ] dineout.co.in details
+- [ ] Google Top Publication
+DEADLINE: <2023-03-24 Fri>
+* [[id:e108451c-2c2d-428b-8070-81d22ca1364a][IoT-and-Embedded]]
+** TODO IoT Project
+SCHEDULED: <2023-02-28 Tue -1d>
+* [[id:76e471a7-d98f-4e6c-91cc-95655647e0a2][Renewable-Energy]]
+** TODO [[../Renewable Energy/Assignments/Assignment-1.org][Renewable Assignment 1]]
+DEADLINE: <2023-03-12 Sun>
+* [[id:98fefb7b-f6e3-4b7f-b2cd-e0a7f180ecd8][Projects]]
+** TODO Major Project Presentation
+DEADLINE: <2023-04-06 Thu>
+* [[id:60a39eb1-142c-4c87-aecc-05c576e6bcc5][Events]]
+* [[id:9fdde0f8-7eed-4ba1-9dad-666a3270dcf3][Exams]]
+* [[id:1134968f-32c4-49cb-854d-2b9a4587f5bd][Activities-Clubs]]
