@@ -20,4 +20,4 @@ for url in URLS:
         year = i.find("span", "lister-item-year text-muted unbold")
         lst.append([name.contents[0], rating, year.contents[0][1:5]])
 df = pd.DataFrame(lst, columns=["Name", "Rating", "Year"])
-print(df.head(10))
+print(df)

@@ -10,5 +10,8 @@
 *** [[id:ea7808aa-1e35-40cd-90f1-1661a52aa1a6][IoT-module2]]
 *** [[Notes/IOT-and-Embdded/Module-2/Analog-to-Digital-Converter.pdf][ADC-Converter]]
 - Pages -> 168, 177, 181
+** Module 3
+*** [[id:4abb26e4-8570-40ae-8064-e9e87e659636][IoT-Module3]]
 ** Links
+** [[id:48924477-5cad-4e72-8835-db0a985c3d12][Project]]
 ** Done

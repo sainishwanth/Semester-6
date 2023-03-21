@@ -3,7 +3,12 @@
 :END:
 #+title: TODO_Sem-6
 
+* [[../6-H Final TT.jpg][Time Table]]
 * [[id:fc1b61f6-a8ed-4538-929a-73bb338bd911][Artifical_Intelligence-2]]
+** TODO AI-2 Project Synopsis
+- Related to any syllabus topic (Expert Systems)
+- 2 page Synopsis -> Batch name and team name
+DEADLINE: <2023-03-24 Fri>
 * [[id:38bcc4d0-5733-42d7-974e-da01d8f3ac79][Deep-Learning]]
 ** TODO Deep-Learning [[../Deep\ Learning/Assignments/DL\ Assignment 1.pdf][Assignment-1]]
 - [ ] Multilayer neural network

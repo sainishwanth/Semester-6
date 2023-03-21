@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       48924477-5cad-4e72-8835-db0a985c3d12
+:END:
+#+title: Automatic Door Locking System with Voice Recognition
+
+#+BEGIN_COMMENT
+\author{Sai Nishwanth Raj Reddy\\ENG21AM3031\\6-H
+        \and
+        Arham Asif Syed\\ENG20AM0013\\6-G
+      }
+#+END_COMMENT
+
+* Main Components
+- Arduino
+- Bread Board
+- DC-Motor
+- Microphone
+
+* Synopsis
+An automatic door locking system with voice recognition is a project that aims to create a smart and secure way of controlling access to a door using voice commands. The project uses an Arduino board as the main controller, a voice recognition module V3 as the input device, a motor driver L298n and a car door lock actuator as the output device. The voice recognition module V3 can be trained to recognize up to 80 voice commands, which can be used to lock or unlock the door. It will be primarily trained to recognize specific voice commands such as ``Open'' or ``Close'' for its functionality.The Arduino board communicates with the voice recognition module V3 via serial communication and controls the motor driver L298n to activate or deactivate the car door lock actuator. The project also uses an LCD display and an LED indicator to show the status of the door lock system. The project can be enhanced by adding more features such as connecting it to Amazon Alexa services for remote control or using RFID tags for backup authentication.
