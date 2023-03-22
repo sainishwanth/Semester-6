@@ -13,7 +13,9 @@ DEADLINE: <2023-03-24 Fri>
 ** TODO Deep-Learning [[../Deep\ Learning/Assignments/DL\ Assignment 1.pdf][Assignment-1]]
 - [ ] Multilayer neural network
 - [ ] Email Spam Classifier
-DEADLINE: <2023-03-20 Mon>
+DEADLINE: <2023-03-24 Mon>
+** TODO Deep-Learning Mini-Project
+DEADLINE: <2023-03-24 Fri>
 * [[id:0729f8fe-faa0-4cb1-ae7e-322b93cf6419][CDSS]]
 ** TODO Lab Observation
 DEADLINE: <2023-03-21 Tue 10:00 ++1w -1d>
@@ -24,14 +26,6 @@ DEADLINE: <2023-03-21 Tue 10:00 ++1w -1d>
 - State "DONE"       from "TODO"       [2023-03-13 Mon 15:08]
 * [[id:c6c23685-0497-44aa-bd5b-cb9ef59758b5][Data-Science]]
 ** TODO Data Science [[../Data Science/20AM3609_DS_Handson_Webscraping.pdf][Assignment-1]]
-- [X] Wikipedia
-- [X] IMDB
-- [X] Former Presidents
-- [ ] Cricket Rankings
-- [ ] CNBC News
-- [ ] AI Articles from journals
-- [ ] dineout.co.in details
-- [ ] Google Top Publication
 DEADLINE: <2023-03-24 Fri>
 * [[id:e108451c-2c2d-428b-8070-81d22ca1364a][IoT-and-Embedded]]
 ** TODO IoT Project

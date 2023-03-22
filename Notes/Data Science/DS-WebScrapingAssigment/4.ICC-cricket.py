@@ -8,6 +8,7 @@ lst = []
 names = []
 
 choice = int(input("1. Men's Cricket ODI Rantings\n2. Top 10 ODI Batsmen Records\n3. Top 10 ODI Bowler's Records: "))
+lst = []
 match choice:
     case 1:
         URL = "https://www.icc-cricket.com/rankings/mens/team-rankings/odi"
@@ -22,12 +23,10 @@ match choice:
     case _:
         print("Invalid Input! Try Again")
 
-
 page = requests.get(URL, headers=header)
 soup = BeautifulSoup(page.content, 'html.parser')
 table = soup.find('table')
 table_rows = table.find_all('tr')[1:]
-
 
 for tr in table_rows[:10]:
     td = tr.find_all('td')
@@ -40,7 +39,8 @@ for i in lst:
     except:
         continue
 
-
 df = pd.DataFrame(lst,columns=names)
 df.to_csv('ICC.csv')
 print(df)
+
+
