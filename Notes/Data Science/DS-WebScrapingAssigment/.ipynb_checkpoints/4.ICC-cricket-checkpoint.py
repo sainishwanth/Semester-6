@@ -19,6 +19,7 @@ match choice:
     case 3:
         URL = "https://www.icc-cricket.com/rankings/mens/player-rankings/odi/bowling"
         names = ["Player", "Team", "Rating", "Career Best Rating"]
+
     case _:
         print("Invalid Input! Try Again")
 

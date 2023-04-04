@@ -2,3 +2,34 @@
 :ID:       4abb26e4-8570-40ae-8064-e9e87e659636
 :END:
 #+title: iot-module3
+
+* Machine to Machine Communication (M2M)
+- Any technology that allows networked devices to exchange information and performs actions without any human intervention
+- It can be wired or wireless
+- Ex - Industrial manufacturing, Healthcare
+
+** What it provides
+- Machines can exchange information and co ordinate to perform actions
+
+*** M2M vs IoT Differences
+
+| M2M                        | IoT                              |
+|----------------------------+----------------------------------|
+| Machines                   | Sensors                          |
+| Hardware Based             | Software Based                   |
+| Deployed in closed Systems | Deployed on a large open network |
+| Non-IP Protocol            | IP based protocol                |
+| One-Way Communication      | Two-Way Communication            |
+| Structured data            | Structured and Unstructured data |
+
+** Machine to Machine importance
+- These tranmissions allow data from sensors, tools and other devices to be transmitted to another device
+  or an edge compiting device in order to report status, log a transacation, or give or request instruction
+  for the device itself
+** Why is M2M used?
+- *Reduces Human Intervention*
+- It reduces time, bandwidth and latency when facikitating automnomous actions b/w machine assets
+- M2M data is used in advanced IIoT systems utilizing AI to create connected smart factories and drive superior
+  process improvement
+
+**
